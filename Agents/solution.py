@@ -31,7 +31,6 @@ Objective: Navigate to the person, pick them up, and return to the exit as quick
 
 from robot import Robot, Direction, Position
 
-
 def solve(robot: Robot) -> None:
     """
     Implement your rescue algorithm here.
@@ -49,6 +48,9 @@ def solve(robot: Robot) -> None:
     width, height = robot.get_grid_dimensions()
     exit_pos = robot.get_exit_position()
     person_pos = robot.get_person_position()
+    while(robot.is_carrying_person==False):
+        while(person_pos.x <<):
+            
 
     # Example: Check for nearby fires
     fire_count = robot.sense_fires_around()

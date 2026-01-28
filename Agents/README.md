@@ -147,7 +147,7 @@ def solve(robot: Robot) -> None:
     
     # Naviguer vers la personne (éviter les feux !)
     # ...
-    
+        
     # Retourner à la sortie avec la personne - la mission se termine automatiquement !
     # ...
 ```
